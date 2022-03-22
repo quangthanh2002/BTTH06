@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sử dụng đối tượng window</title>
+    <style>
+        body {
+            display: flex;
+            margin-top: 17%;
+        }
+
+        .banner {
+            width: 220px;
+            height: 50px;
+            background-color: black;
+            color: black;
+            padding: 12px;
+            animation-name: examples;
+            animation-duration: 4s;
+        }
+
+        .number {
+            background-color: white;
+            width: 23px;
+            height: 35px;
+            display: inline-block;
+        }
+
+        .mg-a {
+            display: block;
+            float: left;
+            margin-top: -5px;
+        }
+
+        .disappears {
+            display: none;
+        }
+    </style>
+</head>
+
+<body onload="JavaScript:AutoRefresh(1100);">
+    <div class="container" style="margin: auto;  width: 550px;">
+
+        <div class="banner mg-a">
+            <div class="number" id="hour1">
+
+            </div>
+            <div class="number" id="hour2">
+
+            </div>
+            <div class="number" id="dot1">
+
+            </div>
+            <div class="number" id="min1">
+
+            </div>
+            <div class="number" id="min2">
+
+            </div>
+            <div class="number" id="dot2">
+
+            </div>
+            <div class="number" id="sec1">
+
+            </div>
+            <div class="number" id="sec2">
+
+            </div>
+
+
+        </div>
+        <div style="text-align: center; font-size: 40px; margin-top: -40px; color: red;">
+            <div id="morning">
+                <h1></h1>
+            </div>
+            <div id="afternoon">
+                <h1></h1>
+            </div>
+            <div id="evening">
+                <h1></h1>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/main.js"></script>
+    <script type="text/JavaScript">
+
+        function AutoRefresh( t ) {
+              setTimeout("location.reload(true);", t);
+           }
+        
+    </script>
+</body>
+
+</html>
