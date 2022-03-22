@@ -33,6 +33,7 @@ function clock(){
         minutes[1].src=`icon/0${m%10}.gif`
     }
     if(s<10){
+        
         seconds[0].src=`icon/0${Math.floor(s/10)}.gif`
         seconds[1].src=`icon/0${s%10}.gif`
     }
