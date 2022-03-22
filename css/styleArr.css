@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+div{
+    border: 2px solid rgb(37, 37, 128);
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div h3{
+    text-align: center;
+    margin: 10px;
+    color: rgba(3, 3, 121, 0.918);
+}
+table{
+    border-collapse: collapse;
+}
+tr{
+    border: 2px solid rgb(37, 37, 128);
+}
+#btncol{
+    text-align: center;
+}
+#showArr{
+    padding:0 10px
+}
+#r2 {
+    color: orange;
+}
+#r3,#r4{
+    text-align: center;
+}
+#inputPos{
+    width: 50px;
+}
+#inputItem{
+    width: 70px;
+}
+#showlastArr{
+    padding: 0 10px;
+}
+button{
+    background-color: darkgray;
+}
+#btncol{
+    border: 2px solid rgb(37, 37, 128);
+}
