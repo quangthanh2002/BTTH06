@@ -1,0 +1,17 @@
+.banner{
+    display: flex;
+    justify-content: center;
+}
+table{
+    margin-top: 50px;
+    border-collapse:collapse;
+    border: 2px solid gray;
+    text-align: center;
+}
+.clock{
+    background-color: black;
+    padding:0 10px;
+}
+.message{
+    font-size: 30px;
+}
